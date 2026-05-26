@@ -6,19 +6,19 @@ However, this is not like some hero (like Zoro in one piece) that seems to have 
 Lets be ethical, Happy Hacking
 
 # Getting Started
-> 1. Cloning
+ 1. Cloning
 Clone this repo from github using and get into its directory:
 ```git clone https://github.com/chucky557/Nim-Reflective-Loader && cd Nim-Reflective-Loader```
 
 
-> 2. compilation
+ 2. compilation
 This was done on linux, BlackArch to be specific. So the first bit is on how to compile on Linux then the second is on windows.
 
 1. LOADER
 ```
 nim c -d:mingw --os:windows --cpu:amd64 --gcc.exe:/usr/bin/x86_64-w64-mingw32-gcc --gcc.linkerexe:/usr/bin/x86_64-w64-mingw32-gcc --passL: "-static-libgcc -static-libstdc++ -static"  loader1.nim
 ```
-> Windows
+ Windows
 
 ```
 nim c --cpu:amd64 --cc:gcc -d:release loader1.nim
@@ -30,7 +30,7 @@ nim c --cpu:amd64 --cc:gcc -d:release loader1.nim
 nim c --os:windows --cpu:amd64 --cc:gcc --app:lib --noMain --nomain   --gcc.exe:/usr/bin/x86_64-w64-mingw32-gcc --gcc.linkerexe:/usr/bin/x86_64-w64-mingw32-gcc --passL:"-luser32" --passL:"-Wl,-e_DllMain -static-libgcc -static-libstdc++ -static" -d:mingw -d:release --threads: off --out:mydll.dll mydll.nim
 ```
 
-> Windows
+ Windows
 
 ```
 nim c --cpu:amd64 --cc:gcc --app:lib --noMain --nomain --passL:"-luser32" --passL:"-wl, -e_DllMain" -d:mingw -d:release --threads: off --out:mydll.dll mydll.nim
@@ -57,4 +57,4 @@ I would really love to appreciate:
 	6. Anyone and everyone who shall use this responsibly and without sharing with virustotal
 
 Lets be ethical
-> | Happy Hacking
+> Happy Hacking
