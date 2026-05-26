@@ -49,12 +49,12 @@ If you encounter a haddle just say. I will be happy to help.
 
 # Appreciation
 I would really love to appreciate:
-	1. Mr.Helixo @Helixo32 for the loader code that I happen to be fixing
-	2. Offensive Nim repo (creating dll and pushing me to love nim more)
-	3. Microsoft for the awesome documentation and 0xRick (0xrick.github.io/win-internals)
-	4. The many Youtubers whose videos helped me understand reflective injection.
-  5. [Red Team Notes](https://ired.team) - mostly on the loader side
-	6. Anyone and everyone who shall use this responsibly and without sharing with virustotal
+1. Mr.Helixo @Helixo32 for the loader code that I happen to be fixing
+2. Offensive Nim repo (creating dll and pushing me to love nim more)
+3. Microsoft for the awesome documentation and [0xRick](0xrick.github.io/win-internals)
+4. The many Youtubers whose videos helped me understand reflective injection.
+5. [Red Team Notes](https://ired.team) - mostly on the loader side
+6. Anyone and everyone who shall use this responsibly and without sharing with virustotal
 
 Lets be ethical
 > Happy Hacking
