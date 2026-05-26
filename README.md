@@ -49,7 +49,7 @@ If you encounter a haddle just say. I will be happy to help.
 
 # Appreciation
 I would really love to appreciate:
-1. Mr.Helixo @Helixo32 for the loader code that I happen to be fixing
+1. Mr.Helixo [Helixo32](https://github.com/Helixo32) for the loader code that I happen to be fixing
 2. Offensive Nim repo (creating dll and pushing me to love nim more)
 3. Microsoft for the awesome documentation and [0xRick](0xrick.github.io/win-internals)
 4. The many Youtubers whose videos helped me understand reflective injection.
