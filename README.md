@@ -40,7 +40,6 @@ nim c --cpu:amd64 --cc:gcc --app:lib --noMain --nomain --passL:"-luser32" --pass
 1. To use the loader, download it onto a target 
 2. Run it on target
 
-[Watch a demo video](demo.mp4)
 
 # NOTE
 First, I stole the bare framework of this code from a guy named Helixo and fixed it. I kinda shared with him the fix but got no response.
