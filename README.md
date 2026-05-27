@@ -7,11 +7,12 @@ Lets be ethical, Happy Hacking
 
 # Getting Started
  1. Cloning
+
 Clone this repo from github using and get into its directory:
 ```git clone https://github.com/chucky557/Nim-Reflective-Loader && cd Nim-Reflective-Loader```
 
 
- 2. compilation
+ 3. compilation
     
 This was done on linux, BlackArch to be specific. So the first bit is on how to compile on Linux then the second is on windows.
 
