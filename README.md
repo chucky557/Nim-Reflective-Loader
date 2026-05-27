@@ -12,6 +12,7 @@ Clone this repo from github using and get into its directory:
 
 
  2. compilation
+    
 This was done on linux, BlackArch to be specific. So the first bit is on how to compile on Linux then the second is on windows.
 
 1. LOADER
